@@ -326,6 +326,14 @@ button {
 }
 
 
+hr {
+	height: 1px;
+	margin: -0.6rem 0 0.3rem;
+	border: none;
+	background: var(--border);
+}
+
+
 body footer {
 	margin: 0;
 	padding: 1rem 1.5rem 1.5rem;
@@ -344,4 +352,3 @@ body footer {
 ::selection {
 	background: rgba(0, 170, 255, 0.30);
 }
-
