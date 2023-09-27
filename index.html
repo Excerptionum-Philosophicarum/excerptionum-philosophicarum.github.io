@@ -10,7 +10,7 @@
 
 <body>
 
-<header>
+<header id="neural-circuit">
 	<h1>
     <a href="/">Linguosynthesis</a>
 	</h1>
@@ -95,7 +95,7 @@ If you are using a smaller screen, like on a tablet or a mobile phone, you can e
 As you can see, it is extremely simple, and while it is true that I could add the <code>nowrap</code> value to change any HTML paragraph as desired, I prefer making the adjustment via my style sheet. Not only is it what CSS exists for, but it allows experimenting more easily.
 </p>
 
-<h2><a href="">Cyberpoietic Appendix</a></h2>
+<h2><a href="#neural-circuit">Cyberpoietic Appendix</a></h2>
 <p>
 ~/robertoqs/autopoiesis/linguosynthesis<br>
 <hr>
@@ -205,10 +205,8 @@ I want to express gratitude towards whom I mention here, while I simultaneously 
 <button onclick="topFunction()" id="topbutton">&uarr;</button>
 
 <script>
-//Get the button
 var mybutton = document.getElementById("topbutton");
 
-// When the user scrolls down 20px from the top of the document, show the button
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -219,7 +217,6 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
 function topFunction() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
