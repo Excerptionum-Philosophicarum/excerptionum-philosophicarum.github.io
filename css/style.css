@@ -104,13 +104,13 @@ header {
 	border-bottom: 1px solid var(--accent);
 	border-left: 1px solid var(--accent);
 	border-right: 1px solid var(--accent);	
-	background: var(--bg);
+	background: var(--accent-bg);
 	color: var(--accent);
 	text-align: center;
 }
 header h1 {
 	margin: 0;
-	font-size: 2rem;
+	font-size: 1.75rem;
 	font-weight: 550;
 }
 header h1 a:visited {
@@ -128,30 +128,23 @@ header p {
 	font-weight: 500;
 	font-variant: small-caps;
 }
-header nav {
-	margin: -0.5rem 0 -1.25rem;
+nav details {
+  margin: -0.85rem -0.9rem -0.8rem;
+  background: var(--accent-bg);
+  color: var(--accent);
 	font-size: 1.25rem;
 	font-weight: 500;
 	font-variant: small-caps;
 }
-nav summary {
-	font-size: 1.5rem;
-}
 nav ul {
-	margin: inherit;
-	margin-top: -0.5rem;
-	list-style: none;
-	display: inline-block;
-	text-align: left;
+  margin: 0 0 0 2.15rem;
+	font-size: 1.25rem;
+	font-weight: 500;
+	font-variant: small-caps;
+  list-style: none;
 }
-nav a:visited {
-	color: var(--accent);
-}
-nav a:active {
-	color: var(--accent-hover);
-}
-nav a:hover {
-	color: var(--accent-hover);
+nav li {
+	margin-bottom: 0.35rem;
 }
 
 main {
@@ -160,12 +153,19 @@ main {
 article {
 }
 section {
-	margin: 2rem 0.05rem 2rem;
+	margin: 2rem 0.05rem;
 	padding: 1rem 1.5rem;
 	outline: 1px solid var(--border);
 	background: var(--bg);
 	overflow-x: auto;
 	scroll-behavior: smooth;
+}
+.nav {
+	margin: 0.5rem 0.05rem;
+	padding: 0.5rem 1.5rem;
+	outline: 1px solid var(--accent);
+	background: var(--accent-bg);
+	overflow: hidden;
 }
 
 p {
@@ -174,6 +174,11 @@ p {
 }
 .strophe {
 	white-space: nowrap;
+}
+.language-selection{
+	margin: 0.15rem 0 0;
+	font-size: 1.25rem;
+	font-weight: 500;
 }
 sup { 
 	vertical-align: top; 
@@ -191,7 +196,7 @@ blockquote {
 }
 
 ul, ol {
-	margin: 0 0 0 2rem;
+	margin: 0 0 0 2.15rem;
 	line-height: 1.25;
 }
 ul {
@@ -267,14 +272,14 @@ details[open] summary{
 details[open] > *:last-child{
 	margin-bottom: 0;
 }
-.nav {
+/*.nav {
 	margin: 0;
-	/*list-style-image: url("/css/menu-icon.svg");
- 	list-style-type:"\2630";*/
+	list-style-image: url("/css/menu-icon.svg");
+ 	list-style-type:"\2630";
 	color: var(--accent);
 	background: var(--bg);
 	outline: none;
-}
+}*/
 details + p {
 	margin-top: 0.35rem;
 }
