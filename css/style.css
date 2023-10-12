@@ -146,6 +146,15 @@ nav ul {
 nav li {
 	margin-bottom: 0.35rem;
 }
+nav a:visited {
+	color: var(--accent);
+}
+nav a:active {
+	color: var(--accent-hover);
+}
+nav a:hover {
+	color: var(--accent-hover);
+}
 
 main {
 	font: inherit;
