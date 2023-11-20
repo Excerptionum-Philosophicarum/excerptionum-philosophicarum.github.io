@@ -104,6 +104,8 @@ header {
 	border-bottom: 1px solid var(--accent);
 	border-left: 1px solid var(--accent);
 	border-right: 1px solid var(--accent);	
+	border-bottom-left-radius: 0.5rem;
+	border-bottom-right-radius: 0.5rem;
 	background: var(--accent-bg);
 	color: var(--accent);
 	text-align: center;
@@ -165,6 +167,7 @@ section {
 	margin: 2rem 0.05rem;
 	padding: 1rem 1.5rem;
 	outline: 1px solid var(--border);
+	border-radius: 0.5rem;
 	background: var(--bg);
 	overflow-x: auto;
 	scroll-behavior: smooth;
@@ -326,7 +329,7 @@ button {
 	font-family: inherit;
 	font-size: inherit;
 	border: 0px;
-	border-radius: 1rem;
+	border-radius: 0.5rem;
 	background: var(--accent);
 	color: var(--bg);
 	display: inline-block;
@@ -349,8 +352,8 @@ body footer {
 	border-top: 1px solid var(--accent);
 	border-left: 1px solid var(--accent);
 	border-right: 1px solid var(--accent);	
-	border-bottom-left-radius: 0;
-	border-bottom-right-radius: 0;
+	border-top-left-radius: 0.5rem;
+	border-top-right-radius: 0.5rem;
 	background: var(--bg);
 	color: var(--text);
 	text-align: center;
