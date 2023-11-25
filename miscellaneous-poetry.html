@@ -101,6 +101,44 @@ moss on great stone.
 </section>
 
 
+<style>
+#topbutton {
+  display: none;
+  position: fixed;
+  bottom: 0.2rem;
+  right: 1rem;
+  z-index: 99;
+  font-size: 3.5rem;
+  font-weight: 800;
+  color: #000000;
+  cursor: pointer;
+  padding: 0.5rem 1rem 1.25rem;
+  margin: 0.5rem 0;
+}
+</style>
+
+<button onclick="topFunction()" id="topbutton">&uarr;</button>
+
+<script>
+var mybutton = document.getElementById("topbutton");
+
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+
+	
 </article>
 </main>
 	<footer>
