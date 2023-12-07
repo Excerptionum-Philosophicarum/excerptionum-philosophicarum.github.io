@@ -340,7 +340,7 @@ button {
 
 hr {
 	height: 1px;
-	margin: -0.6rem 0 0.3rem;
+	margin: 0rem 8rem 2rem 0rem;
 	border: none;
 	background: var(--border);
 }
