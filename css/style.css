@@ -127,7 +127,7 @@ header h1 a:hover {
 header p {
 	margin: 0;
 	font-size: 1.25rem;
-	font-weight: 500;
+	font-weight: 550;
 	font-variant: small-caps;
 }
 nav details {
@@ -135,13 +135,13 @@ nav details {
 	background: var(--accent-bg);
 	color: var(--accent);
 	font-size: 1.25rem;
-	font-weight: 500;
+	font-weight: 550;
 	font-variant: small-caps;
 }
 nav ul {
 	margin: 0 0 0 2.15rem;
 	font-size: 1.25rem;
-	font-weight: 500;
+	font-weight: 550;
 	font-variant: small-caps;
 	list-style: none;
 }
@@ -219,6 +219,7 @@ h1, h2, h3 {
 h1 {
 	margin: 0.2rem 0 0;
 	font-size: 2rem;
+ 	font-weight: 550;
 	font-variant: small-caps;
 }
 h1 a:visited {
@@ -240,6 +241,7 @@ h1 + table {
 h2 {
 	margin: 1rem 0 0;
 	font-size: 1.55rem;
+	font-weight: 550;
 }
 h2 a:visited {
 	color: var(--accent);
@@ -254,6 +256,7 @@ h2 a:hover {
 h3 {
 	margin: 1rem 0 0;
 	font-size: 1.1rem;
+	font-weight: 550;
 }
 p + h2, p + h3 {
 	margin: 2rem 0 0;
