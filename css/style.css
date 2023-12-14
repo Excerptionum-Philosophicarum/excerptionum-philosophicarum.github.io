@@ -53,7 +53,7 @@ table {
 
 /* RobertoQS CSS */
 :root {
-	--serif-font: "PT Astra Serif", Garamond, serif;
+	--serif-font: "PT Astra Serif", serif;
 	--mono-font: "Monospace", monospace;
 	--bg: #212426;
 	--accent-bg: #17171A;
@@ -96,6 +96,29 @@ table {
 	font-style: italic;	
 }
 */
+html { 
+	font-family: "PT Astra Serif", serif;
+	margin: 0 auto;
+	max-width: 40rem;
+	font-size: 100%;
+	background: #000000;
+	color: var(--text);
+	scroll-behavior: smooth;
+}
+body {
+	font-size: 1rem;
+	line-height: 1;
+}
+@media (min-width: 20rem){
+	body{
+		font-size:calc(1rem + 0.00625 * (100vw - 20rem));
+	}
+}
+@media (min-width: 40rem){
+  	body{
+		font-size:1.125rem;
+	}
+}
 
 
 header {
