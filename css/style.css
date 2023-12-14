@@ -53,7 +53,7 @@ table {
 
 /* RobertoQS CSS */
 :root {
-	--serif-font: "EB Garamond", Garamond, serif;
+	--serif-font: "PT Astra Serif", Garamond, serif;
 	--mono-font: "Monospace", monospace;
 	--bg: #212426;
 	--accent-bg: #17171A;
@@ -64,6 +64,28 @@ table {
 	--accent-visited: #006AFF;
  }
 @font-face {
+ 	font-family: "PT Astra Serif";
+ 	src: url("/css/PTAstraSerif-Regular.ttf");
+	font-style: normal;
+}
+@font-face {
+	font-family: "PT Astra Serif";
+	src: url("/css/PTAstraSerif-Italic.ttf");
+	font-style: italic;	
+}
+@font-face {
+	font-family: "PT Astra Serif";
+	src: url("/css/PTAstraSerif-Bold.ttf");
+	font-weight: bold;	
+}
+@font-face {
+	font-family: "PT Astra Serif";
+	src: url("/css/PTAstraSerif-BoldItalic.ttf");
+	font-weight: bold;
+	font-style: italic;
+}
+/*
+@font-face {
  	font-family: "EB Garamond";
  	src: url("/css/EBGaramond-Regular-Variable.ttf");
 	font-style: normal;
@@ -73,29 +95,7 @@ table {
 	src: url("/css/EBGaramond-Italic-Variable.ttf");
 	font-style: italic;	
 }
-html { 
-	font-family: "EB Garamond", Garamond, serif;
-	margin: 0 auto;
-	max-width: 40rem;
-	font-size: 100%;
-	background: #000000;
-	color: var(--text);
-	scroll-behavior: smooth;
-}
-body {
-	font-size: 1rem;
-	line-height: 1;
-}
-@media (min-width: 20rem){
-	body{
-		font-size:calc(1rem + 0.00625 * (100vw - 20rem));
-	}
-}
-@media (min-width: 40rem){
-  	body{
-		font-size:1.125rem;
-	}
-}
+*/
 
 
 header {
