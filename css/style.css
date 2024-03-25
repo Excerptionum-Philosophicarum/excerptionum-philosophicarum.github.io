@@ -109,6 +109,7 @@ header h1 {
 	font-size: 1.5rem;
 	font-weight: 550;
   font-variant: small-caps;
+  border: none;
 }
 header h1 a {
   transition: 0.35s ease-out;
@@ -254,6 +255,7 @@ h1 {
 	font-size: 2rem;
  	font-weight: 550;
 	font-variant: small-caps;
+    border-bottom: 1px solid var(--text);
 }
 h1 a:visited {
 	color: var(--accent-visited);
