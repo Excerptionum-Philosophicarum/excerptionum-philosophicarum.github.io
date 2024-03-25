@@ -306,7 +306,6 @@ summary {
   margin: -0.25rem -0.5rem 0 -0.95rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   font-variant: small-caps;
-  text-decoration: 1px solid underline var(--border);
     cursor: pointer;
 }
 details[open] {
