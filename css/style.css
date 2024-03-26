@@ -245,6 +245,9 @@ ul {
 li {
 	margin: 1rem 0 1rem 0;
 }
+ul + h2 {
+	margin: 2rem 0 0 0;
+}
 
 h1, h2, h3 {
 	font: inherit;
@@ -298,7 +301,7 @@ p + h1, p + h2, p + h3 {
 }
 
 details {
-  margin: -0.25rem 0 0 0;
+  margin: -0.25rem 0 0.25rem 0;
   padding: 0.5rem 0.5rem 0 0.5rem;
 }
 
@@ -319,8 +322,6 @@ details > ul {
   margin: -0.5rem 0 -0.5rem 0.65rem;
   list-style-type: none;
 }
-
-
 /*
 details[open] {
 	margin: 0 0 0 -0.85rem;
@@ -390,7 +391,7 @@ button {
 }
 
 hr {
-  margin: 0rem 8rem 2rem 0rem;
+  margin: 0.75rem 0 2rem 0;
 	height: 1px;
   width: 10rem;
   background-color: var(--border);
