@@ -303,7 +303,7 @@ details {
 }
 
 summary {
-  margin: -0.25rem -0.5rem 0 -0.95rem;
+  margin: 0 -0.5rem 0 -0.95rem;
   padding: 0.5rem 0.5rem 0.5rem 0.5rem;
   font-variant: small-caps;
     cursor: pointer;
@@ -315,12 +315,8 @@ details[open] {
 details[open] summary {
 text-decoration: none;
 }
-details > p {
-  margin: -1rem 0 0 0;
-  padding: 0.25rem 0 0 0;
-}
 details > ul {
-  margin: 0 0 0 0.65rem;
+  margin: -0.5rem 0 -0.5rem 0.65rem;
   list-style-type: none;
 }
 
