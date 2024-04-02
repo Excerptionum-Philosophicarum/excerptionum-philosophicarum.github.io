@@ -254,11 +254,11 @@ h1, h2, h3 {
 }
 h1 {
 	margin: 0.25rem 0 0 0;
-  padding: 0 0 0 0;
+  	padding: 0 0 0 0;
 	font-size: 2rem;
  	font-weight: 550;
 	font-variant: small-caps;
-    border-bottom: 1px solid var(--text);
+    	border-bottom: 1px solid var(--border);
 }
 h1 a:visited {
 	color: var(--accent-visited);
@@ -287,6 +287,7 @@ h2 a:active {
 h2 a:hover {
 	color: var(--accent-hover);
 	text-decoration: none;
+	font-variant: small-caps;
 }
 h3 {
 	margin: 1rem 0 0;
