@@ -98,7 +98,7 @@ header {
 	padding: 0.25rem 0 1rem 0;
 	border-bottom: 2px solid var(--accent);
 	border-left: 8px solid var(--accent);
-	border-right: 2px solid var(--accent);	
+	border-right: 2px solid var(--accent);
 	background: var(--accent-bg);
 	color: var(--accent);
 	text-align: left;
@@ -216,7 +216,7 @@ section {
 .tabla-seccion {
 	margin: 2rem 0.05rem;
 	padding: 0.5rem 1rem;
-	border-left: 7px solid var(--text);
+  border-left: 7px solid var(--text);
 	outline: 1px solid var(--text);
 	background: var(--bg);
 	overflow-x: auto;
@@ -336,13 +336,31 @@ summary {
 details[open] {
   padding: 0.5rem 0.5rem 0.25rem 0.5rem;
 }
+
 details[open] summary {
 text-decoration: none;
+
 }
-details > ul {
+details[open] .extractos {
+margin-bottom: 1rem;
+padding-bottom: 1.25rem;
+border-bottom: 1px solid var(--border);
+}
+details ul {
   margin: -0.5rem 0 -0.5rem 0.65rem;
   list-style-type: none;
 }
+details p {
+	margin-left: -0.45rem;
+	line-height: 1.35;
+}
+details h2 {
+	margin-left: -0.45rem;
+}
+p + details {
+  margin: -1rem 0 0 0;
+}
+
 /*
 details[open] {
 	margin: 0 0 0 -0.85rem;
