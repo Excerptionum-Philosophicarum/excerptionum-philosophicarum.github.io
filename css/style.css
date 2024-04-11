@@ -332,7 +332,6 @@ summary {
   font-weight: 500;
   font-variant: small-caps;
   cursor: pointer;
-  transition: 0.35s ease-out;
 }
 details[open] {
   padding: 0.5rem 0.5rem 0.25rem 0.5rem;
