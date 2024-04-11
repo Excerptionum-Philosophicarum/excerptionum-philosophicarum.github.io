@@ -339,9 +339,8 @@ details[open] {
 
 details[open] summary {
 text-decoration: none;
-
 }
-details[open] .extractos {
+details[open] .extractos-details {
 margin-bottom: 1rem;
 padding-bottom: 1.25rem;
 border-bottom: 1px solid var(--border);
@@ -350,26 +349,27 @@ details ul {
   margin: -0.5rem 0 -0.5rem 0.65rem;
   list-style-type: none;
 }
+.extractos-ul{
+  margin: 0 0 0 2.15rem;
+  list-style-type: square;
+}
 details p {
 	margin-left: -0.45rem;
 	line-height: 1.35;
 }
-details h2 {
+details h2, details h3 {
 	margin-left: -0.45rem;
 }
 p + details {
   margin: -1rem 0 0 0;
 }
-
+h1 + details  {
+  margin: 0.25rem 0 0 0;
+}
+details + details  {
+  margin: -0.25rem 0 0 0;
+}
 /*
-details[open] {
-	margin: 0 0 0 -0.85rem;
-  padding: 0 0 0.5rem 0;
-
-}
-details[open] summary{
-  padding: 0;
-}
 details[open] > *:last-child{
 	margin-bottom: 0;
 }
