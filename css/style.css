@@ -332,6 +332,7 @@ summary {
   font-weight: 500;
   font-variant: small-caps;
   cursor: pointer;
+  transition: 0.35s ease-out;
 }
 details[open] {
   padding: 0.5rem 0.5rem 0.25rem 0.5rem;
@@ -340,7 +341,7 @@ details[open] {
 details[open] summary {
 text-decoration: none;
 }
-details[open] .extractos-details {
+details[open] .extractos-summary {
 margin-bottom: 1rem;
 padding-bottom: 1.25rem;
 border-bottom: 1px solid var(--border);
