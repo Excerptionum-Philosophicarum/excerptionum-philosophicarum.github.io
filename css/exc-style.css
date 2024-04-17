@@ -330,7 +330,8 @@ ul {
 	list-style: none;
 }
 .sublista {
-  margin: -0.5rem 0 0 2.5rem;
+  margin: 0 0 0 2rem;
+  	list-style-type:none;
 }
 ul :target{
   background: rgba(0, 170, 255, 0.15);
