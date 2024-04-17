@@ -99,7 +99,6 @@ header {
 	border-bottom: 2px solid var(--accent);
 	border-left: 8px solid var(--accent);
 	border-right: 2px solid var(--accent);
-	background: var(--accent-bg);
 	color: var(--accent);
 	text-align: left;
 }
@@ -146,7 +145,6 @@ header p {
 	border-bottom: 2px solid var(--accent);
 	border-left: 8px solid var(--accent);
 	border-right: 2px solid var(--accent);	
-	background: var(--accent-bg);
 	color: var(--text);
   cursor: pointer;
   transition: 0.35s ease-in-out;
@@ -492,7 +490,6 @@ body footer {
 	border-top: 2px solid var(--accent);
 	border-left: 2px solid var(--accent);
 	border-right: 2px solid var(--accent);	
-	background: var(--bg);
 	color: var(--text);
 	text-align: center;
 	line-height: 1.25;
